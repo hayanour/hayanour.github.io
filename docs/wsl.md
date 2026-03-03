@@ -5,6 +5,8 @@ parent: Setups
 nav_order: 1
 ---
 
+# WSL (Windows Susbystem for Linux)
+
 ## Prerequisites
 1. Search for "Turn Windows features on or off" in the Start menu.
 2. Check the boxes for Windows Subsystem for Linux and Virtual Machine Platform.
