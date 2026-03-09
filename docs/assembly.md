@@ -7,7 +7,7 @@ nav_order: 2
 
 ## Basic Structure
 Basic structure of an assembly (`.s`) program that doesn't crash:
-```asm
+```armasm
 .intel_syntax noprefix
 
 mov rax, 60
