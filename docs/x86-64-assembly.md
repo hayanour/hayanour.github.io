@@ -1,18 +1,20 @@
 ---
 layout: default
-title: x86 Assembly 
+title: x86-64 Assembly 
 parent: All Notes
 nav_exclude: true
 ---
 
-# Assembly
+# x86-64 Assembly
 ## Basic Structure
-Basic structure of an assembly (`.s`) program that doesn't crash:
+Basic structure of an assembly (`.s`) program that exits 0:
 ```nasm
 .intel_syntax noprefix
 
 mov rax, 60
+xor rdi, rdi
 syscall
+; Comments start with semicolon.
 ```
 
 ## Assembling and Linking Programs
