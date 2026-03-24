@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Assembly
-parent: Misc
-nav_order: 3
+title: x86 Assembly 
+parent: All Notes
+nav_exclude: true
 ---
 
 # Assembly
